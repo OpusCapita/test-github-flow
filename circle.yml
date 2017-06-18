@@ -1,0 +1,15 @@
+## Using LTS version of node
+machine:
+  node:
+    version: 6
+
+## Installing dependencies
+dependencies:
+  override:
+    - npm install
+## Executing tests with juinit reporter and placing test-result in a special circle folder
+test:
+  override:
+    - npm run test -- --reporter mocha-junit-reporter:
+        environment:
+          MOCHA_FILE: $CIRCLE_TEST_REPORTS/junit/test-results.xml
