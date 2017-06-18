@@ -21,4 +21,4 @@ import React from 'react;
 ## Link
 This was only the first step - read full mardkown tutorial [here](https://guides.github.com/features/mastering-markdown/)
 
-#Test documentation is available [here](https://opuscapita.github.io/test-github-flow/)
+## Test documentation is available [here](https://opuscapita.github.io/test-github-flow/)
