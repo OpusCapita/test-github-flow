@@ -17,7 +17,7 @@ import React from 'react;
 | First col  | Second col |
 | ---------- | -----------|
 | row data 0 | row data 0 |
+| row data 1 | row data 2 |
 
 ## Link
 This was only the first step - read full mardkown tutorial [here](https://guides.github.com/features/mastering-markdown/)
-
