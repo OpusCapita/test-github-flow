@@ -9,6 +9,6 @@ describe('Example tests:', () => {
     setTimeout(() => {
         assert.equal(true, true);
         done();
-    }, 100)
+    }, 150)
   });
 });
